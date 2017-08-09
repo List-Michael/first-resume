@@ -2,6 +2,27 @@
   font-family: helvetica, arial, sans-serif;
 }
 
+/* this styling is for an ID in the HTML document*/
+#objective {
+  font-size: 12px;
+  font-style: italic;
+}
+
+
+/*this styling is for a div class */
+.education {
+  font-size: 15px;
+}
+
+/* this would only style list elemends in the education class
+li.education
+*/
+
+/* you can style multipe classes or elements at one, e.g. with ".first, .last {}" or "h1, p {}"*/
+
+/* you can have mulitple classes e.g. class="book domestic". With that, the css styling can be split up into ".book" and a seperate ".domestic" or ".foreign".
+With this, .domestic and .foreign have different styling attributes while both are sharing parent styling attributes from .book"*/
+
 body {
   color: DarkSlateGray;
   background-color: oldlace;
