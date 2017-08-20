@@ -1,19 +1,34 @@
 * {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'roboto', helvetica, arial, sans-serif;
+  /*this command displays all the box elements of a website */
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  max-width: 1024px;
 }
 
 /* this styling is for an ID in the HTML document*/
 #objective {
-  font-size: 12px;
-  font-style: italic;
+  text-align: center;
+  font-weight: bold;
 }
-
+.contact_information{
+  text-align: center;
+}
 
 /*this styling is for a div class */
 .education {
-  font-size: 15px;
 }
-
+.job_title{
+  font-style: italic;
+  float:left;
+}
+.objective {
+  text-align: center;
+  font-style: italic;
+}
+.duration{
+  font-weight: bold;
+  float:right;
+}
 /* this would only style list elemends in the education class
 li.education
 */
@@ -23,9 +38,19 @@ li.education
 /* you can have mulitple classes e.g. class="book domestic". With that, the css styling can be split up into ".book" and a seperate ".domestic" or ".foreign".
 With this, .domestic and .foreign have different styling attributes while both are sharing parent styling attributes from .book"*/
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid black;
+    margin: 0.5em auto;
+    padding: 0;
+}
+
+
 body {
-  color: DarkSlateGray;
-  background-color: oldlace;
+  color: black;
+  background-color: white;
   /*background-color: #009;*/
 }
 
@@ -50,6 +75,7 @@ h3 {
   margin: 0;
   padding: 0;
 }
+
 
 
 /* This turns a picture into a circle */

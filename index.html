@@ -7,11 +7,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <p>
+    <div class="contact_information">
       <h1>Michael List</h1>
       5300 Harbour Pointe Blvd #311-I, Mukilteo, WA 98275<br />
       list.michael@outlook.com | 425-446-9506<br />
-
       <a href="https://www.linkedin.com/in/michael-list-3b3b7893/" target="_blank">
         <img src="images/LinkedIn_logo.png" height="25" width="25"/>
       </a>
@@ -21,58 +20,77 @@
       <a href="https://stackoverflow.com/users/story/8260371#" target="_blank">
         <img src="images/so-icon.svg" height="25" width="25"/>
       </a>
-  </p>
+    </div>
+    <div id="objective">Objective</div>
+    <div class="objective">
+        Native German speaker with two years of data analysis experience seeking Investigation Specialist (German)
+        position that will effectively maximize my independent analytical and critical thinking abilities.
+    </div> <br />
 
-  <h3>Skills</h3>
-  <ul>
-    <li>HTML 5</li>
-  </ul>
-
-
-    <h3 id="objective">Objective</h3><br />
-
-Native German speaker with two years of data analysis experience seeking Investigation Specialist (German)
-position that will effectively maximize my independent analytical and critical thinking abilities.
 
 <!--This section of the resume is for my Work Experience-->
+    <div class="work_experience">
+
 <h2>Work Experience</h2>
-<h3>Google via Randstad</h3>
+<hr/>
+  <h3>Google via Randstad</h3>
+  Bothell, WA
+  <div class="job_description_align" style="clear: both;">
+    <!-- I am pretty sure that the div element is used incorrectly here but it fixed the span/p element issue -->
+  <div class="job_title">Visual Data Specialist I & II</div>
+  <div class="duration">September 2014 – September 2016</div>
+</div> <br />
+  <ul>
+    <li>Independently optimized workflows, improved existing documentation, and constructed clear standard operation procedures for Geo-Data-Validation project</li>
+    <li>Analyzed and resolved faulty data change patterns by investigating data logs before data reached publishing date</li>
+    <li>Continuously identified, documented and tracked bugs of latest in-house GIS software releases</li>
+    <li>Demonstrated exceptional written communication skills by creating bug reports, consulting off site engineering teams, and formulating concise standard operating procedures</li>
+    <li>Demonstrated interpersonal communication skills by consulting team peers, mentoring new employees, and delivering constructive feedback to program managers</li>
+    <li>Independently sought opportunities on other teams and projects to further broaden knowledge about quality control, software testing, pilot projects and employee training</li>
+    <li>Proven ability to work in a fast-paced environment under tight deadlines by consistently exceeded productivity goals in terms of quality, quantity, and time to completion</li>
+  </ul>
 
-Bothell, WA<br />
-<i>Visual Data Specialist I  II</i> September 2014 – September 2016
-<ul>
-  <li>Independently optimized workflows, improved existing documentation, and constructed clear standard operation procedures for Geo-Data-Validation project</li>
-  <li>Analyzed and resolved faulty data change patterns by investigating data logs before data reached publishing date</li>
-  <li>Continuously identified, documented and tracked bugs of latest in-house GIS software releases</li>
-  <li>Demonstrated exceptional written communication skills by creating bug reports, consulting off site engineering teams, and formulating concise standard operating procedures</li>
-  <li>Demonstrated interpersonal communication skills by consulting team peers, mentoring new employees, and delivering constructive feedback to program managers</li>
-  <li>Independently sought opportunities on other teams and projects to further broaden knowledge about quality control, software testing, pilot projects and employee training</li>
-  <li>Proven ability to work in a fast-paced environment under tight deadlines by consistently exceeded productivity goals in terms of quality, quantity, and time to completion</li>
-</ul>
+<div>
+  <h3>German Aerospace Center</h3>
+  Berlin, Germany<br />
+  <div class="job_description_align" style="clear: both;">
+    <div class="job_title">Research Assistant</div>
+    <div class="duration">September 2013 – November 2013</div>
+  </div>
+  <br />
+  <ul>
+    <li>Demonstrated methodical and detail oriented work approach by managing software testing project for the newly obtained software Aicon 3D to explore its full functionality</li>
+    <li>Collaboratively worked with multiple teams to analyze and methodically solve non-obvious software problems</li>
+    <li>Created clear standard operating procedures for Aicon 3D after analyzing software functionality to maximize camera calibration accuracy while reducing calibration time by 90%</li>
+    <li>Independently produced official and internal accuracy camera calibration reports</li>
+    <li>Prioritized tasks to meet multiple deadlines for various team while exceeding quality standards</li>
+  </ul>
+</div>
 
-<h3>German Aerospace Center</h3>
-Berlin, Germany<br />
-<i>Research Assistant</i> September 2013 – November 2013
-<ul>
-  <li>Demonstrated methodical and detail oriented work approach by managing software testing project for the newly obtained software Aicon 3D to explore its full functionality</li>
-  <li>Collaboratively worked with multiple teams to analyze and methodically solve non-obvious software problems</li>
-  <li>Created clear standard operating procedures for Aicon 3D after analyzing software functionality to maximize camera calibration accuracy while reducing calibration time by 90%</li>
-  <li>Independently produced official and internal accuracy camera calibration reports</li>
-  <li>Prioritized tasks to meet multiple deadlines for various team while exceeding quality standards</li>
-</ul>
-<br />
-
-<h3>Alberta Terrestrial Imaging Center</h3>
-Lethbridge, Alberta, Canada<br />
-<i>Intern</i>
+<div>
+  <h3>Alberta Terrestrial Imaging Center</h3>
+  Lethbridge, Alberta, Canada<br />
+  <div class="job_description_align" style="clear: both;">
+    <div class="job_title">Intern</div>
+    <div class="duration">June 2012 – August 2012</div>
+  </div>
+</div>
+</div>
+<br /><br />
 
 
 <!-- This section of the resume is for my eduction -->
+<div class="education">
 <h2>Education</h2>
-<h3 class="education">Beuth University for Applied Sciences</h3>
+<hr/>
+<h3>Beuth University for Applied Sciences</h3>
 Berlin, Germany<br />
-<i>Bachelor of Engineering: Geoinformation Science</i> 2013
 
+<div class="job_description_align" style="clear: both;">
+  <div class="job_title">Bachelor of Engineering: Geoinformation Science</div>
+  <div class="duration">2013</div>
+</div>
+<br />
 <ul>
   <li>Bachelor Thesis: Analyzed software ERDAS Imagine LPS eATE for DEM derivation</li>
   <li>Demonstrated time management ability by completing bachelor thesis within 10 of a 12-week deadline</li>
@@ -81,7 +99,24 @@ Berlin, Germany<br />
 
 <h3>Skagit Valley College</h3>
 Mount Vernon, WA<br />
-<i>Craft Brewing Certificate</i> September 2016 – June 2017
+
+<div class="job_description_align" style="clear: both;">
+  <div class="job_title">Craft Brewing Certificate</div>
+  <div class="duration">September 2016 – June 2017</div>
+</div>
+
+</div>
 
   </body>
 </html>
+
+
+<!-- in case I want to add skills to the resume
+
+
+  <h3>Skills</h3>
+  <ul>
+    <li>HTML 5</li>
+  </ul>
+
+-->
